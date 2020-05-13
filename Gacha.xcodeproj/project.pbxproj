@@ -15,6 +15,14 @@
 		F95CD982246BF74400595D49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F95CD980246BF74400595D49 /* LaunchScreen.storyboard */; };
 		F95CD98D246BF74400595D49 /* GachaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95CD98C246BF74400595D49 /* GachaTests.swift */; };
 		F95CD998246BF74400595D49 /* GachaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95CD997246BF74400595D49 /* GachaUITests.swift */; };
+		F95CD9A9246BF78B00595D49 /* images-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F95CD9A7246BF78B00595D49 /* images-1.jpg */; };
+		F95CD9AA246BF78B00595D49 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F95CD9A8246BF78B00595D49 /* images.jpg */; };
+		F95CD9B1246BF7F600595D49 /* お菓子　ポテチ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F95CD9AC246BF7F600595D49 /* お菓子　ポテチ.jpg */; };
+		F95CD9B2246BF7F600595D49 /* お菓子　プリン.jpg 02-33-59-069.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F95CD9AD246BF7F600595D49 /* お菓子　プリン.jpg 02-33-59-069.jpg */; };
+		F95CD9B3246BF7F600595D49 /* お菓子　チョコレート.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F95CD9AE246BF7F600595D49 /* お菓子　チョコレート.jpg */; };
+		F95CD9B4246BF7F600595D49 /* お菓子　ショートケーキ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F95CD9AF246BF7F600595D49 /* お菓子　ショートケーキ.jpg */; };
+		F95CD9B5246BF7F600595D49 /* お菓子　柿ピー.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F95CD9B0246BF7F600595D49 /* お菓子　柿ピー.jpg */; };
+		F95CD9B7246BFA9A00595D49 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95CD9B6246BFA9A00595D49 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		F95CD993246BF74400595D49 /* GachaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GachaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95CD997246BF74400595D49 /* GachaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GachaUITests.swift; sourceTree = "<group>"; };
 		F95CD999246BF74400595D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F95CD9A7246BF78B00595D49 /* images-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images-1.jpg"; sourceTree = "<group>"; };
+		F95CD9A8246BF78B00595D49 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
+		F95CD9AC246BF7F600595D49 /* お菓子　ポテチ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "お菓子　ポテチ.jpg"; sourceTree = "<group>"; };
+		F95CD9AD246BF7F600595D49 /* お菓子　プリン.jpg 02-33-59-069.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "お菓子　プリン.jpg 02-33-59-069.jpg"; sourceTree = "<group>"; };
+		F95CD9AE246BF7F600595D49 /* お菓子　チョコレート.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "お菓子　チョコレート.jpg"; sourceTree = "<group>"; };
+		F95CD9AF246BF7F600595D49 /* お菓子　ショートケーキ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "お菓子　ショートケーキ.jpg"; sourceTree = "<group>"; };
+		F95CD9B0246BF7F600595D49 /* お菓子　柿ピー.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "お菓子　柿ピー.jpg"; sourceTree = "<group>"; };
+		F95CD9B6246BFA9A00595D49 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +120,11 @@
 				F95CD979246BF74100595D49 /* ViewController.swift */,
 				F95CD97B246BF74100595D49 /* Main.storyboard */,
 				F95CD97E246BF74400595D49 /* Assets.xcassets */,
+				F95CD9A6246BF78B00595D49 /* 背景 */,
 				F95CD980246BF74400595D49 /* LaunchScreen.storyboard */,
+				F95CD9AB246BF7F600595D49 /* お菓子 */,
 				F95CD983246BF74400595D49 /* Info.plist */,
+				F95CD9B6246BFA9A00595D49 /* ResultViewController.swift */,
 			);
 			path = Gacha;
 			sourceTree = "<group>";
@@ -126,6 +145,27 @@
 				F95CD999246BF74400595D49 /* Info.plist */,
 			);
 			path = GachaUITests;
+			sourceTree = "<group>";
+		};
+		F95CD9A6246BF78B00595D49 /* 背景 */ = {
+			isa = PBXGroup;
+			children = (
+				F95CD9A7246BF78B00595D49 /* images-1.jpg */,
+				F95CD9A8246BF78B00595D49 /* images.jpg */,
+			);
+			path = "背景";
+			sourceTree = "<group>";
+		};
+		F95CD9AB246BF7F600595D49 /* お菓子 */ = {
+			isa = PBXGroup;
+			children = (
+				F95CD9AC246BF7F600595D49 /* お菓子　ポテチ.jpg */,
+				F95CD9AD246BF7F600595D49 /* お菓子　プリン.jpg 02-33-59-069.jpg */,
+				F95CD9AE246BF7F600595D49 /* お菓子　チョコレート.jpg */,
+				F95CD9AF246BF7F600595D49 /* お菓子　ショートケーキ.jpg */,
+				F95CD9B0246BF7F600595D49 /* お菓子　柿ピー.jpg */,
+			);
+			path = "お菓子";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +272,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F95CD9B2246BF7F600595D49 /* お菓子　プリン.jpg 02-33-59-069.jpg in Resources */,
+				F95CD9B1246BF7F600595D49 /* お菓子　ポテチ.jpg in Resources */,
 				F95CD982246BF74400595D49 /* LaunchScreen.storyboard in Resources */,
+				F95CD9AA246BF78B00595D49 /* images.jpg in Resources */,
 				F95CD97F246BF74400595D49 /* Assets.xcassets in Resources */,
+				F95CD9B3246BF7F600595D49 /* お菓子　チョコレート.jpg in Resources */,
+				F95CD9B4246BF7F600595D49 /* お菓子　ショートケーキ.jpg in Resources */,
 				F95CD97D246BF74100595D49 /* Main.storyboard in Resources */,
+				F95CD9A9246BF78B00595D49 /* images-1.jpg in Resources */,
+				F95CD9B5246BF7F600595D49 /* お菓子　柿ピー.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +309,7 @@
 				F95CD97A246BF74100595D49 /* ViewController.swift in Sources */,
 				F95CD976246BF74100595D49 /* AppDelegate.swift in Sources */,
 				F95CD978246BF74100595D49 /* SceneDelegate.swift in Sources */,
+				F95CD9B7246BFA9A00595D49 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
